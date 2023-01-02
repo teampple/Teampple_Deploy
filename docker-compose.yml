@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  backend-dev:
+    image: squirmm/teampple-server-prod:main
+    container_name: backend-prod
+    hostname: backend-prod
+    expose:
+      - "8080"
+
+  nginx:
+    depends_on:
+      - backend-prod
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: ./config/nginx
+    ports:
+      - "80:80"
