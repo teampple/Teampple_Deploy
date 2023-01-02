@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.HOST_PROD }}
           username: ubuntu
           key: ${{ secrets.KEY_PROD }}
-          script: mkdir -p ~/srv/ubuntu/
+          script: mkdir -p ~/srv/ubuntu
 
       - name: copy source via ssh key
         uses: burnett01/rsync-deployments@4.1
