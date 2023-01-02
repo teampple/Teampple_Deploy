@@ -3,14 +3,16 @@ name: DEPLOY TO PROD
 on:
   workflow_dispatch:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
-  
     runs-on: ubuntu-latest
 
     steps:
+      - name: checkout
+        uses: actions/checkout@master
+
       - name: create remote directory
         uses: appleboy/ssh-action@master
         with:
