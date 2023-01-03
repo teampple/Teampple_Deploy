@@ -9,7 +9,7 @@ services:
       - "8080"
 
   client-prod:
-    image: squirmm/teampple-client
+    image: squirmm/teampple-client:main
     container_name: client-prod
     hostname: client-prod
     ports:
