@@ -18,6 +18,7 @@ services:
   nginx:
     depends_on:
       - backend-prod
+      - client-prod
     restart: always
     build:
       dockerfile: Dockerfile
