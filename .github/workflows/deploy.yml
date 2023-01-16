@@ -38,6 +38,7 @@ jobs:
           key: ${{ secrets.KEY_PROD }}
           script: |
             sh ~/srv/ubuntu/deploy.sh
+            echo "start docker-compose up: ubuntu"
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker rm $(sudo docker ps -a -q)
             sudo docker rmi $(sudo docker images -q)
