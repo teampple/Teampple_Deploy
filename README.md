@@ -1,6 +1,11 @@
 # Teampple_Deploy
-팀플 서비스 팀쁠(teampple) 디폴로이 레포지토리 😇 
+팀플 서비스 팀쁠(teampple) 디폴로이 레포지토리 😇    
 
+![웹 썸네일](https://user-images.githubusercontent.com/62806067/217758364-20db75d3-ce79-4245-a8ca-3a01a11eaf85.jpg)
+
+## Developers
+   
+   
 
 ## Architecture of Deploy
 ![IMG_6649](https://user-images.githubusercontent.com/62806067/210494300-63687b61-869d-4d08-8c4a-fb60bf353a5b.JPG)
