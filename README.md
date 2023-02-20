@@ -4,7 +4,60 @@
 ![웹 썸네일](https://user-images.githubusercontent.com/62806067/217758364-20db75d3-ce79-4245-a8ca-3a01a11eaf85.jpg)
 
 ## Developers
-   
+<div align="center"> 
+  <table>
+    <tr align="center">
+        <td><B>DevOps/Backend<B></td>
+        <td><B>DevOps/Backend<B></td>
+        <td><B>FrontEnd<B></td>
+        <td><B>FrontEnd<B></td>
+    </tr>
+     <tr align="center">
+        <td>
+           <B>전수민</B>
+        </td>
+        <td>
+           <B>정상훈</B>
+        </td>
+          <td>
+           <B>유선호</B>
+        </td>
+          <td>
+           <B>임채리</B>
+        </td>
+     </tr>
+     <tr align="center">
+        <td>
+           <img src="https://github.com/squirMM.png?size=100">
+           <br>
+           <a href="https://github.com/squirMM">
+              <I>squirMM</I>
+           </a>
+        </td>
+        <td>
+           <img src="https://github.com/wjdtkdgns.png?size=100" width="100">
+           <br>
+           <a href="https://github.com/wjdtkdgns">
+              <I>wjdtkdgns</I>
+           </a>
+        </td>
+                <td>
+           <img src="https://github.com/YooSeonHo.png?size=100" width="100">
+           <br>
+           <a href="https://github.com/YooSeonHo">
+              <I>YooSeonHo</I>
+           </a>
+        </td>
+                <td>
+           <img src="https://github.com/ch9eri.png?size=100" width="100">
+           <br>
+           <a href="https://github.com/ch9eri">
+              <I>ch9eri</I>
+           </a>
+        </td>
+     </tr>
+  </table>
+</div>   
    
 
 ## Architecture of Deploy
