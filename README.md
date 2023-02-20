@@ -8,7 +8,8 @@
    
 
 ## Architecture of Deploy
-![IMG_6649](https://user-images.githubusercontent.com/62806067/210494300-63687b61-869d-4d08-8c4a-fb60bf353a5b.JPG)
+![Teampple_](https://user-images.githubusercontent.com/62806067/219998032-005e4b22-02d8-477e-be40-23e17d84fcae.jpg)
+
 
 
 ## Deploy Situation
