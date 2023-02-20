@@ -2,6 +2,13 @@
 팀플 서비스 팀쁠(teampple) 디폴로이 레포지토리 😇    
 
 ![웹 썸네일](https://user-images.githubusercontent.com/62806067/217758364-20db75d3-ce79-4245-a8ca-3a01a11eaf85.jpg)
+<a href="https://www.teampple.com/">
+  <I>teampple.com</I>
+</a>
+
+## Service Summary
+![팀플_서비스](https://user-images.githubusercontent.com/62806067/220025659-f484e65a-f735-4776-b5b5-3530d4010a8e.jpg)
+
 
 ## Developers
 <div align="center"> 
