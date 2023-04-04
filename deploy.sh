@@ -23,21 +23,6 @@ then
   sudo chmod +x /usr/local/bin/docker-compose
 fi
 
-# Installing redis-server if not exists
-if ! type redis-server > /dev/null
-then
-  echo "redis-server does not exist"
-  echo "Start installing redis-server"
-  sudo apt-get update
-  sudo apt install redis-server
-fi
-
-
-# Installing redis-sentinel if not exists
-if ! type redis-sentinel > /dev/null
-then
-  echo "redis-sentinel does not exist"
-  echo "Start installing redis-sentinel"
-  sudo apt-get update
-  sudo apt install redis-sentinel
-fi
+sudo apt-get update
+sudo apt install redis-server
+sudo apt install redis-sentinel

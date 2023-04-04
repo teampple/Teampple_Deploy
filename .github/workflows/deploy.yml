@@ -38,9 +38,10 @@ jobs:
           key: ${{ secrets.KEY_PROD }}
           script: |
             sh ~/srv/ubuntu/deploy.sh
+            
             echo "start docker-compose up: ubuntu"
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker rm $(sudo docker ps -a -q)
             sudo docker rmi $(sudo docker images -q)
             sudo docker-compose -f ~/srv/ubuntu/docker-compose.yml pull
-            sudo docker-compose -f ~/srv/ubuntu/docker-compose.yml up --build -d
+            sudo docker-compose -f ~/srv/ubuntu/docker-compose.yml up --scale redis-sentinel=3 --scale redis-slave=2 --build -d
