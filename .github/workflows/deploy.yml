@@ -39,6 +39,9 @@ jobs:
           script: |
             sh ~/srv/ubuntu/deploy.sh
             
+            sudo service redis-server stop
+            sudo service redis-sentinel stop
+            
             echo "start docker-compose up: ubuntu"
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker rm $(sudo docker ps -a -q)
